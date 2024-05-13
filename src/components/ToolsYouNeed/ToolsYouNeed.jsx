@@ -4,7 +4,7 @@ const ToolsYouNeed = () => {
   const { title, desc, img } = getData()['section-two'];
 
   return (
-    <section className='flex flex-col gap-8'>
+    <section className='flex flex-col gap-8' id='tools'>
       <div className='text-left md:text-center'>
         <h2 className='subtitle'>{title}</h2>
         <p className='paragraph mt-2 max-w-[360px] md:mx-auto'>{desc}</p>

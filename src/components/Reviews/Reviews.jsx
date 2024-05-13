@@ -12,7 +12,7 @@ import createUid from '../../utils/createUid';
 const Reviews = () => {
   const { title, reviews } = getData()['section-six'];
   return (
-    <section>
+    <section id='reviews'>
       <h2 className='subtitle'>{title}</h2>
       <Swiper
         navigation={true}

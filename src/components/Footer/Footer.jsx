@@ -3,7 +3,7 @@ import RenderLinks from '../ui/RenderLinks';
 
 const Footer = () => {
   return (
-    <footer className='footer footer-center p-10 bg-custom-blue/gray-900 text-custom-white'>
+    <footer className='footer footer-center p-10 bg-custom-blue/gray-900 text-custom-white mt-20'>
       <aside>
         <Logo inFooter />
         <ul className='flex flex-wrap justify-center gap-4 my-4'>

@@ -5,13 +5,43 @@
   },
   "MENU_LINKS": [
     {
-      "text": "Inicio",
-      "href": "#",
+      "text": "Home",
+      "href": "#home",
       "isExternal": false
     },
     {
-      "text": "Soluciones",
-      "href": "#soluciones",
+      "text": "Tools",
+      "href": "#tools",
+      "isExternal": false
+    },
+    {
+      "text": "Info",
+      "href": "#info",
+      "isExternal": false
+    },
+    {
+      "text": "Meet",
+      "href": "#meet",
+      "isExternal": false
+    },
+    {
+      "text": "Stats",
+      "href": "#stats",
+      "isExternal": false
+    },
+    {
+      "text": "Reviews",
+      "href": "#reviews",
+      "isExternal": false
+    },
+    {
+      "text": "Project",
+      "href": "#project",
+      "isExternal": false
+    },
+    {
+      "text": "Features",
+      "href": "#features",
       "isExternal": false
     },
     {
@@ -21,8 +51,8 @@
     },
     {
       "text": "Contact",
-      "href": "mailto:qKsKf@example.com",
-      "isExternal": true
+      "href": "#contact",
+      "isExternal": false
     }
   ],
   "section-one": {

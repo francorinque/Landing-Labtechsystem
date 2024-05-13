@@ -4,7 +4,7 @@ const Projects = () => {
   const { title, projectImg, projectTitle, projectDesc } =
     getData()['section-projects'];
   return (
-    <section>
+    <section id='project'>
       <h2 className='subtitle'>{title}</h2>
 
       <div

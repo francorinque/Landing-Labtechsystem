@@ -4,7 +4,7 @@ import getData from '../../utils/getData';
 const Stats = () => {
   const { stats } = getData()['section-five'];
   return (
-    <section className='bg-custom-blue/gray-900 text-custom-yellow '>
+    <section className='bg-custom-blue/gray-900 text-custom-yellow ' id='stats'>
       <div className='flex flex-wrap gap-4 items-center justify-around'>
         {stats.map((s) => (
           <div

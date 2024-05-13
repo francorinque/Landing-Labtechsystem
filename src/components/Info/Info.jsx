@@ -6,7 +6,10 @@ import { FaCheck } from 'react-icons/fa6';
 const Info = () => {
   const { title, desc, list, img } = getData()['section-three'];
   return (
-    <section className='flex flex-col gap-5 md:flex-row md:justify-between md:items-center'>
+    <section
+      className='flex flex-col gap-5 md:flex-row md:justify-between md:items-center'
+      id='info'
+    >
       <div className='text-left'>
         <h2 className='subtitle'>{title}</h2>
         <p className='paragraph'>{desc}</p>

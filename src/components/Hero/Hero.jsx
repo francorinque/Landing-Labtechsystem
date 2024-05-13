@@ -6,7 +6,10 @@ const Hero = () => {
   const { title, desc, companies, img } = getData()['section-one'];
 
   return (
-    <section className='grid gap-[60px] md:gap-0 md:grid-cols-2 md:justify-between pt-10'>
+    <section
+      className='grid gap-[60px] md:gap-0 md:grid-cols-2 md:justify-between pt-10'
+      id='home'
+    >
       {/* text */}
       <div className='w-full max-w-[500px] max-h-[500px] flex flex-col justify-center  gap-4'>
         <h1 className='font-bold text-[40px] text-balance'>{title}</h1>

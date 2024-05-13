@@ -4,7 +4,10 @@ import { FaArrowRightLong, FaJetFighter } from 'react-icons/fa6';
 const Meet = () => {
   const { title, desc, img, btn } = getData()['section-four'];
   return (
-    <section className='flex flex-col md:flex-row gap-10 md:justify-between md:items-center'>
+    <section
+      className='flex flex-col md:flex-row gap-10 md:justify-between md:items-center'
+      id='meet'
+    >
       <div className='flex flex-col gap-5 relative z-2  md:order-2 max-w-[600px]'>
         <FaJetFighter className='absolute top-[-10px] right-[20px] text-[30px] z-1 text-custom-yellow' />
         <h2 className='subtitle'>{title}</h2>

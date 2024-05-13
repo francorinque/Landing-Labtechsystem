@@ -8,6 +8,7 @@ const Features = () => {
     grid grid-cols-1 md:grid-cols-2 md:justify-between  gap-10 md:gap-0
     *:max-h-[500px]
     '
+      id='features'
     >
       <div className='max-w-[500px]  flex flex-col justify-center'>
         <h2 className='subtitle'>{title}</h2>

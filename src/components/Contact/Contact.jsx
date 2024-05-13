@@ -5,7 +5,7 @@ const Contact = () => {
   const { title, desc, btn } = getData()['section-eight'];
 
   return (
-    <section className='md:bg-custom-yellow'>
+    <section className='md:bg-custom-yellow' id='contact'>
       <div className='flex flex-col items-center text-center max-w-[400px] mx-auto gap-3'>
         <h2 className='subtitle'>{title}</h2>
         <p className='paragraph w-[90%]'>{desc}</p>
