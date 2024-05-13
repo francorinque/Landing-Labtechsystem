@@ -1,5 +1,6 @@
 import createUid from '../../utils/createUid';
 import getData from '../../utils/getData';
+import CustomBtn from '../ui/CustomBtn';
 
 const Hero = () => {
   const { title, desc, companies, img } = getData()['section-one'];
@@ -10,15 +11,12 @@ const Hero = () => {
       <div className='w-full max-w-[500px] max-h-[500px] flex flex-col justify-center  gap-4'>
         <h1 className='font-bold text-[40px] text-balance'>{title}</h1>
         <p className='w-[90%] paragraph'>{desc}</p>
-        <button
-          className='btn bg-custom-orange border-none text-custom-white
-        w-full max-w-[200px]
-        '
-        >
+        <CustomBtn>
           <a href='blog.com' target='_blank' rel='noreferrer'>
             Know more
           </a>
-        </button>
+        </CustomBtn>
+
         {/* companies logos */}
         <div className='flex flex-col gap-4 mt-5 lg:flex-row lg:items-center'>
           <p className='paragraph text-custom-blue/gray-600 max-w-[135px]'>
@@ -30,14 +28,14 @@ const Hero = () => {
                 key={createUid()}
                 src={logo.src}
                 alt={logo.alt}
-                className='w-[40px] h-[40px] object-contain'
+                className='w-[40px] h-[40px] object-contain aspect-square'
               />
             ))}
           </div>
         </div>
       </div>
       {/* img */}
-      <figure className='max-h-[500px] w-full '>
+      <figure className='max-h-[500px] w-full'>
         <img
           src={img.url}
           alt={img.alt}
